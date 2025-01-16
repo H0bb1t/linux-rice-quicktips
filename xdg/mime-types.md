@@ -2,17 +2,17 @@
 ##### Получить mime файла
 
 ```bash
-xde-mime query filetype <filename> # 2014-02-22-my_family_video.mkv -> video/x-matroshka
+xdg-mime query filetype <filename> # 2014-02-22-my_family_video.mkv -> video/x-matroshka
 ```
 
 ##### Получить текущее дефолтное приложение для типа
 
 ```bash
-xde-mime query default <mime> # video/x-matroshka -> mpv.desktop
+xdg-mime query default <mime> # video/x-matroshka -> mpv.desktop
 ```
 
 ##### Установить дефолтное приложение для типа
 
 ```bash
-xde-mime default <app> <mime(s)> # vlc.desktop video/x-matroshka
+xdg-mime default <app> <mime(s)> # vlc.desktop video/x-matroshka
 ```
