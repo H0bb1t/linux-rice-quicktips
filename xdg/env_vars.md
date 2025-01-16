@@ -1,0 +1,3 @@
+- `XDG_MENU_PREFIX` - перфикс файла-описания меню. Обычно соответствует используемому Desktop Environment.
+- `XDG_xxx_DIR` - позволяет задать дефолтные папки в домашней директории, где чxxx - название типа, например DOCUMENTS. Подробнее в [user-dirs](user-dirs.md)
+- `XDG_GREETER_DATA_DIR` - директория с данными гриттера lightdm
